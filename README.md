@@ -7,7 +7,7 @@ This project was designed to mirror a real-world SaaS environment, combining dat
 
 ## Folder Structure 
 
-```bash
+```kotlin
 project/
 │
 ├── data/
@@ -82,7 +82,7 @@ Confusion matrix
 
 ROC-AUC score
 
-🎯 Best model (Random Forest) achieved:
+Best model (Random Forest) achieved:
 
 F1-score: 0.86
 
@@ -106,16 +106,16 @@ View churn predictions in real time
 
 Highlight customers at risk of churning
 
-🔗 [Add link here to app if hosted, e.g., Streamlit Cloud]
+🔗 [ Link to app]
 
-## 💡 Key Insights & Business Value
+## Key Insights & Business Value
 The platform can proactively detect churn risks by tracking inactivity and engagement metrics.
 
 Free-tier users and those with low usage patterns are more likely to churn — suggesting upsell, onboarding, or reactivation campaigns.
 
 Churn prediction enables data-driven customer retention strategies to reduce revenue loss.
 
-## 🔍 Potential Improvements
+## Potential Improvements
 Introduce more behavior metrics like login frequency, session duration, or email engagement.
 
 Add time-series features (e.g., monthly job post trend).
