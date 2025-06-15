@@ -1,7 +1,9 @@
 # From Engagement to Exit: Scalable Churn Prediction Engine for Recruitment Platforms
 
 ## Overview
-In this project, I built a machine learning-based churn prediction engine simulating a recruitment platform’s customer base. The goal: to identify customers likely to churn (i.e., stop using the platform) based on historical activity and engagement patterns.
+In this project, I built a machine learning-based churn prediction engine simulating a recruitment platform’s customer base. 
+
+The goal: to identify customers likely to churn (i.e., stop using the platform) based on historical activity and engagement patterns.
 
 This project was designed to mirror a real-world SaaS environment, combining data simulation, predictive modeling, and business insights to support customer retention strategies.
 
