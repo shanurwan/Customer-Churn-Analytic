@@ -111,20 +111,20 @@ Highlight customers at risk of churning
 🔗 [ Link to app]
 
 ## Key Insights & Business Value
-The platform can proactively detect churn risks by tracking inactivity and engagement metrics.
+- The platform can proactively detect churn risks by tracking inactivity and engagement metrics.
 
-Free-tier users and those with low usage patterns are more likely to churn — suggesting upsell, onboarding, or reactivation campaigns.
+- Free-tier users and those with low usage patterns are more likely to churn — suggesting upsell, onboarding, or reactivation campaigns.
 
-Churn prediction enables data-driven customer retention strategies to reduce revenue loss.
+- Churn prediction enables data-driven customer retention strategies to reduce revenue loss.
 
 ## Potential Improvements
-Introduce more behavior metrics like login frequency, session duration, or email engagement.
+- Introduce more behavior metrics like login frequency, session duration, or email engagement.
 
-Add time-series features (e.g., monthly job post trend).
+- Add time-series features (e.g., monthly job post trend).
 
-Use SHAP for deeper model interpretability.
+- Use SHAP for deeper model interpretability.
 
-Build a dashboard with Power BI for executive reporting.
+- Build a dashboard with Power BI for executive reporting.
 
 ## Sample Usage (in Streamlit)
 Upload a file like:
