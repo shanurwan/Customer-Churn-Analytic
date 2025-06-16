@@ -10,19 +10,17 @@ This project was designed to mirror a real-world SaaS environment, combining dat
 ## Folder Structure 
 
 ```kotlin
-project/
-│
+churn-prediction-engine/
 ├── data/
-│   └── churn_data.csv
-│
 ├── notebooks/
-│   └── churn_prediction.ipynb
-│
-├── app/
-│   └── streamlit_app.py
-│
-├── README.md
-└── requirements.txt
+│   └── churn_exploration.ipynb
+├── src/
+│   ├── churn_pipeline.py
+│   └── utils.py
+├── streamlit_app.py
+├── run.py
+├── requirements.txt
+└── README.md
 ```
 
 ##  Dataset Description
