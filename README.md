@@ -59,13 +59,14 @@ Handled feature scaling where needed.
 ### 3. Exploratory Data Analysis
 Visualized feature distributions and class imbalance.
 
-Found correlations: churn was higher among:
+Found correlations: 
+churn was higher among:
 
-Free plan users
+- Free plan users
 
-Inactive customers (long days_since_last_login)
+- Inactive customers (long days_since_last_login)
 
-Low activity users (fewer job posts & applications)
+- Low activity users (fewer job posts & applications)
 
 ### 4. Modeling
 Models tested:
