@@ -5,7 +5,7 @@ In this project, I built a machine learning-based churn prediction engine simula
 
 The goal: to identify customers likely to churn (i.e., stop using the platform) based on historical activity and engagement patterns.
 
-This project was designed to mirror a real-world SaaS environment, combining data simulation, predictive modeling, and business insights to support customer retention strategies.
+This project mirrors a real-world SaaS recruitment platform, simulating customer behavior to explore churn dynamics. Using a synthetic dataset, I built and deployed a churn prediction engine — integrating data simulation, feature engineering, modeling, and real-time Streamlit app deployment..
 
 ## Folder Structure 
 
@@ -24,7 +24,7 @@ churn-prediction-engine/
 ```
 
 ##  Dataset Description
-This is a synthetic dataset created using Python's `Faker` library to reflect customer behavior on a B2B recruitment platform (like JobStreet or SEEK). Each row represents a customer record.
+This is a synthetic dataset created using Python's `Faker` library to reflect customer behavior on a B2B recruitment platform (like JobStreet or SEEK). Each row represents a customer record.While synthetic, the data was carefully modeled to reflect plausible engagement behaviors using controlled randomness and business heuristics.
 
 | Column                  | Description                                |
 | ----------------------- | ------------------------------------------ |
@@ -38,6 +38,8 @@ This is a synthetic dataset created using Python's `Faker` library to reflect cu
 | `is_churned`            | Target label: 1 = churned, 0 = retained    |
 
 ## Project Pipeline
+The project follows an end-to-end ML workflow, designed to be modular, interpretable, and ready for deployment. Here's how it's structured:
+
 ### 1. Data Simulation
 Used Faker to generate ~1000 customer records.
 
@@ -90,13 +92,15 @@ F1-score: 0.86
 ROC-AUC: 0.91
 
 ### 5. Model Insights
-Top features contributing to churn:
+The model highlighted key predictors of churn, including:
 
-Days since last login
+- Long periods of inactivity (days since last login)
 
-Plan type (Free vs Paid)
+- Free-tier usage
 
-Job posting activity
+- Low engagement (few job posts and applications)
+
+These insights align with typical SaaS churn patterns, validating the logic behind the data simulation.
 
 ## Streamlit App (Deployed Demo)
 The model is deployed via a Streamlit app, allowing users to:
@@ -117,6 +121,8 @@ Highlight customers at risk of churning
 - Churn prediction enables data-driven customer retention strategies to reduce revenue loss.
 
 ## Potential Improvements
+- Use real-world anonymized or public datasets (e.g., from Kaggle or HuggingFace) to validate performance in realistic environments.
+  
 - Introduce more behavior metrics like login frequency, session duration, or email engagement.
 
 - Add time-series features (e.g., monthly job post trend).
