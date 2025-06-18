@@ -143,3 +143,14 @@ And the app will return:
 `is_churned = 1` → likely to churn
 
 `is_churned = 0` → likely to stay
+
+## 🌟 Why This Project Matters
+This project reflects my ability to go beyond textbook exercises and simulate realistic business challenges using limited resources. While the dataset is synthetic, the learnings are real: I built a deployable, scalable system and confronted the reality of “garbage in, garbage out” in machine learning.
+
+It demonstrates:
+
+- End-to-end technical competency (data generation to app deployment)
+
+- Business thinking (churn interpretation and retention strategies)
+
+- Self-driven learning (building with constraints and iterating responsibly)
