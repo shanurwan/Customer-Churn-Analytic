@@ -113,12 +113,21 @@ Highlight customers at risk of churning
 
 🔗 [ Link to app]
 
-## Key Insights & Business Value
-- The platform can proactively detect churn risks by tracking inactivity and engagement metrics.
+## 🔍 Key Insights & Business Value
+### 1. From Code to Context
+This project simulates a B2B SaaS environment where platform engagement and customer retention are key. It demonstrates that technically solid models can still fail in real-world settings if the underlying data lacks behavioral depth — a vital insight for teams operating at the intersection of AI, product, and user trust.
 
-- Free-tier users and those with low usage patterns are more likely to churn — suggesting upsell, onboarding, or reactivation campaigns.
+### 2. Data Quality = Product Trust
+By working with synthetic data, I learned how high evaluation scores can mask poor real-world utility when the data doesn’t reflect genuine customer behavior. This underlines the importance of data integrity in platforms where algorithmic outputs influence business decisions and user outcomes.
 
-- Churn prediction enables data-driven customer retention strategies to reduce revenue loss.
+### 3. Retention-Driven Insights
+The churn model mirrors how a talent marketplace could proactively flag disengaged customers, enabling reactivation, upsell, or success strategies that improve customer lifetime value and reduce churn.
+
+### 4. Actionable, Interpretable Signals
+The system surfaces intuitive churn signals — like user inactivity, plan tier, and posting activity — demonstrating how predictive modeling can be both explainable and practical for non-technical stakeholders.
+
+### 5. Deployable Decision Support
+The accompanying Streamlit app acts as a prototype for internal tools that enable real-time insight delivery — showing how data science can be deployed not just as analysis, but as a service embedded into business workflows.
 
 ## Potential Improvements
 - Use real-world anonymized or public datasets (e.g., from Kaggle or HuggingFace) to validate performance in realistic environments.
@@ -143,6 +152,7 @@ And the app will return:
 `is_churned = 1` → likely to churn
 
 `is_churned = 0` → likely to stay
+
 
 ## 🌟 Why This Project Matters
 This project reflects my ability to go beyond textbook exercises and simulate realistic business challenges using limited resources. While the dataset is synthetic, the learnings are real: I built a deployable, scalable system and confronted the reality of “garbage in, garbage out” in machine learning.
