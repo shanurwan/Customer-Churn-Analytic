@@ -7,21 +7,6 @@ The goal: to identify customers likely to churn (i.e., stop using the platform) 
 
 This project mirrors a real-world SaaS recruitment platform, simulating customer behavior to explore churn dynamics. Using a synthetic dataset, I built and deployed a churn prediction engine — integrating data simulation, feature engineering, modeling, and real-time Streamlit app deployment..
 
-## Folder Structure 
-
-```kotlin
-churn-prediction-engine/
-├── data/
-├── notebooks/
-│   └── churn_exploration.ipynb
-├── src/
-│   ├── churn_pipeline.py
-│   └── utils.py
-├── streamlit_app.py
-├── run.py
-├── requirements.txt
-└── README.md
-```
 
 ##  Dataset Description
 This is a synthetic dataset created using Python's `Faker` library to reflect customer behavior on a B2B recruitment platform (like JobStreet or SEEK). Each row represents a customer record.While synthetic, the data was carefully modeled to reflect plausible engagement behaviors using controlled randomness and business heuristics.
